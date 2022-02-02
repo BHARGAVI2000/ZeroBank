@@ -1,0 +1,30 @@
+package myStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TC_001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		//1.Launch the browser  
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		//2.Enter the url of the website 
+		driver.get("http://automationpractice.com/index.php");
+		
+		//3.Type in dresses available in the catalog in the search text field then click on search        
+		driver.findElement(By.id("search_query_top")).sendKeys("T-Shirts" );
+		
+	WebElement img=driver.findElement(By.linkText("Faded Short Sleeve T-shirts"));
+		
+System.out.println(img);
+	}
+
+}

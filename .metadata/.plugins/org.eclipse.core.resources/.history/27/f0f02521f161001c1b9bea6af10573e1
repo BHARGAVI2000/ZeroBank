@@ -1,0 +1,41 @@
+package ElementStatusCapture;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Validation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("http://automationpractice.com/index.php");
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		driver.findElement(By.linkText("Sign in")).click();
+		driver.findElement(By.id("email_create")).sendKeys("saritha740@yahoo.ca");
+		driver.findElement(By.id("SubmitCreate")).click();
+		
+		
+		WebElement FirstName=driver.findElement(By.xpath("//input[@id='customer_firstname']"));
+		FirstName.click();
+		System.out.println(FirstName.isEnabled());
+		
+		WebElement LastName=driver.findElement(By.xpath("//input[@id='customer_lastname']"));
+		LastName.click();
+		System.out.println(LastName.isEnabled());
+		WebElement RadioBtn=driver.findElement(By.xpath("//input[@id='uniform-id_gender2']"));
+		RadioBtn.click();
+		System.out.println(RadioBtn.isSelected());
+		
+	
+		
+		driver.close();
+		
+	}
+
+}

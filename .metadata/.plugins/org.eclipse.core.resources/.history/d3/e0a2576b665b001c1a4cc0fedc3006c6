@@ -1,0 +1,26 @@
+package javaBasics;
+
+public class BasicPrograms {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=10;
+		int b=20;
+		int c =a+b;
+		System.out.println(c);// the problem with this program is always we add the same two values
+		
+	}
+	
+	{
+		// TODO Auto-generated method stub
+		
+		int a=10;
+		int b=20;
+		int c =a+b;
+		System.out.println(c);// 
+		
+		
+	}
+
+}

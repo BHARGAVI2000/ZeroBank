@@ -1,0 +1,61 @@
+package TestCases;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class PayBillTestCase {
+	
+WebDriver driver;
+	
+	static String month= "February 2022";
+	static  String day="25";
+	SignInPage si;
+	LoginPage lp;
+	PayBillsPage pb;
+	
+	@BeforeClass
+	public void launchBrowser() {
+		System.setProperty("webdriver.chrome.driver", "C:/drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+		si= PageFactory.initElements(driver, SignInPage.class);
+		lp= PageFactory.initElements(driver, LoginPage.class);
+		pb= PageFactory.initElements(driver, PayBillsPage.class);
+		driver.manage().window().maximize();
+		driver.get("http://zero.webappsecurity.com/index.html");
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);}
+		@Test
+		public void login() throws InterruptedException {
+			
+				si.clickSignIn();
+				lp.doLogin("username", "password");
+				lp.clickDetailButton();
+				lp.clickProceedLink();
+			//lp.clickDetailButton();
+			//lp.clickProceedLink();
+			pb.clickPayBills();
+			pb.clickPayee();
+			pb.selectCombobox("Wells Fargo");
+			pb.selectAccountCombobox("Checking");
+			pb.enterAmount("200");
+			pb.clickAndSelectdate();
+			pb.enterDescriptionPayment("TD mortgage");
+			pb.clickPay();
+			pb.getPaymentSuccessText();
+			
+			
+	
+		}
+	
+		@AfterClass
+		public void closeBrowser() {
+			driver.quit();}
+
+
+	}
+

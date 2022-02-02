@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticeSuite">
+<parameter name= "browserName" value="chrome"/>
+<parameter name="url" value="http://zero.webappsecurity.com"/>
+<parameter name ="uname" value="username"/>
+<parameter name ="pswd" value="password"/>
+	<test name="ZeroBankingTest" enabled= "true">
+		<classes>
+			<class name="com.TestNG.Tests.ZeroBanking">
+				<methods>
+					<include name="setUp()" />
+					<include name="verifyLogin" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="GoogleSearch" enabled="false">
+		<classes>
+			<class name="com.TestNG.Tests.FirstTest">
+				<methods>
+					<include name="TestGoogle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Saritha20"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="userEmail" value="saritakesoju@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Week4Assignments.volunteerSignUpForm">
+        <methods>
+          <include name="createAccount" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Week4Assignments.volunteerSignUpForm -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

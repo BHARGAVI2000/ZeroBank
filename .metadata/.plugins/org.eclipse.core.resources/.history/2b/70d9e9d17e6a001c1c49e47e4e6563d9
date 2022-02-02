@@ -1,0 +1,103 @@
+package myStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class TC_007 {
+
+	public static void main(String[] args) throws InterruptedException {
+		//Verify Remove this product from my cart
+		
+		
+		//1.Launch the browser       
+		     
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();      
+		
+		//2.Enter the url of the website and click enter   
+		
+				driver.get("http://automationpractice.com/index.php");
+							
+			
+
+		//add to cart
+				
+				driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[1]/a")).click();
+				Thread.sleep(3000);//click on women
+				
+				
+				 driver.findElement(By.xpath("//*[@id=\"categories_block_left\"]/div/ul/li[1]/a")).click();
+				 Thread.sleep(3000);
+						
+				 /* driver.findElement(By.xpath("//*[@id=\"subcategories\"]/ul/li[2]/div[1]/a/img")).click();
+				 Thread.sleep(3000);		
+				
+				 WebElement mouseHover=driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li/div/div[1]/div/a[1]/img"));
+					
+					Actions act = new Actions(driver);
+					act.moveToElement(mouseHover).build().perform();	
+					
+					
+					
+						
+						driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[2]/span")).click();
+						
+						driver.findElement(By.xpath("//*[@id=\"quantity_wanted\"]")).clear();
+						driver.findElement(By.xpath("//*[@id=\"quantity_wanted\"]")).sendKeys("2");
+						
+						Thread.sleep(2000);
+						WebElement Combobox = driver.findElement(By.xpath("//*[@id=\"group_1\"]"));
+						Select sel = new Select(Combobox); 				
+						sel.selectByVisibleText("M");
+						driver.findElement(By.xpath("//*[@id=\"add_to_cart\"]/button/span")).click();
+						
+
+						Thread.sleep(2000);
+							
+										
+						
+						
+								
+								JavascriptExecutor executor = (JavascriptExecutor)driver;
+								WebElement element = driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a"));
+								executor.executeScript("arguments[0].click();", element);	
+
+								
+								
+						String addCart=	driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/a")).getText();
+						System.out.println("Items added to cart, Test pass," +addCart);
+						
+						Thread.sleep(2000);
+		//4. Select and hover the mouse on t[he item and click on the remove this product from cart icon 
+								
+						
+			driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/a")).click();
+			
+						
+			Thread.sleep(2000);
+			WebElement item=driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/div/div/div/dl/dt/a/img"));
+			item.sendKeys(Keys.ARROW_DOWN);
+			WebElement	del=driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/div/div/div/dl/dt/span/a"));
+			Actions action = new Actions(driver);
+			act.moveToElement(item).build().perform();
+			Thread.sleep(2000);
+			act.moveToElement(del).click().build().perform();
+			
+			
+			
+			Thread.sleep(2000);
+			driver.close();
+			
+			
+			*/
+	}
+	}
+
+

@@ -1,0 +1,58 @@
+package myStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TC_001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//Verify search with valid data
+
+		/*
+		
+		//1.Launch the browser  
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		//2.Enter the url of the website 
+		driver.get("http://automationpractice.com/index.php");
+		
+		//3.Type in dresses available in the catalog in the search text field then click on search        
+		driver.findElement(By.id("search_query_top")).sendKeys("T-Shirts" );
+		
+		// Output T-shirts image must be displayed
+	    WebElement img=driver.findElement(By.linkText("Faded Short Sleeve T-shirts"));
+	    System.out.println("Image displayed and Test is passed" +img);
+	    driver.close();
+	}*/
+
+	
+	//Verify search  invalid data
+	
+	
+	//1.Launch the browser  
+			System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			
+			//2.Enter the url of the website 
+			driver.get("http://automationpractice.com/index.php");
+			
+			//3.Type in dresses available in the catalog in the search text field then click on search        
+			driver.findElement(By.id("search_query_top")).sendKeys("kurtis" );
+			
+			// Output error message" No results were found for your search kurtis" displayed
+		   
+		    System.out.println("no images should be displayed/No results were found for your search kurtis , Test pass" );
+		    driver.close();
+
+	
+	
+}
+}

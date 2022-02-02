@@ -1,0 +1,9 @@
+package com.TestNG.Tests;
+
+import org.testng.annotations.Test;
+
+public class FlightBookingPriority {
+  @Test
+  public void f() {
+  }
+}

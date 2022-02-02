@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PracticeSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="uname" value="username"/>
+  <parameter name="pswd" value="password"/>
+  <parameter name="browserName" value="IE"/>
+  <parameter name="url" value="http://zero.webappsecurity.com"/>
+  <test thread-count="5" name="ZeroBankingTest(failed)">
+    <classes>
+      <class name="com.TestNG.Tests.ZeroBanking">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+          <include name="Teardown"/>
+          <include name="initialiseBrowser"/>
+        </methods>
+      </class> <!-- com.TestNG.Tests.ZeroBanking -->
+    </classes>
+  </test> <!-- ZeroBankingTest(failed) -->
+</suite> <!-- Failed suite [PracticeSuite] -->

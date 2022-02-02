@@ -1,0 +1,27 @@
+package myStore;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TC_001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		//1.Launch the browser  
+		System.setProperty("web.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		//2.Enter the url of the website and press enter   
+		driver.get("http://automationpractice.com/index.php");
+		
+		
+		
+		//3.Type in dresses available in the catalog in the search text field then click on search            
+
+
+	}
+
+}

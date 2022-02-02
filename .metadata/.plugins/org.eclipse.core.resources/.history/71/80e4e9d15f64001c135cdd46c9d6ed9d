@@ -1,0 +1,58 @@
+package ElementStatusCapture;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Validation {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("http://automationpractice.com/index.php");
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		driver.findElement(By.linkText("Sign in")).click();
+		
+		driver.findElement(By.id("email_create")).sendKeys("saritha740@yahoo.ca");
+		driver.findElement(By.id("SubmitCreate")).click();
+		
+		//Thread.sleep(20);
+		
+		 
+		System.out.println(driver.getTitle());
+		Thread.sleep(20);
+		
+		System.out.println(driver.findElement(By.xpath("//input[@id='id_gender2']")).isEnabled());
+		//driver.findElement(By.xpath("//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/label[1]")).click();
+		
+		//driver.close();
+		
+		
+		
+		  //driver.findElement(By.cssSelector("input#customer_firstname")).sendKeys("s");
+		//driver.findElement(By.xpath("//input[@name='customer_firstname']")).sendKeys("Sari");
+		//driver.findElement(By.cssSelector("input(id=customer_firstname")).sendKeys("S");
+		
+        //iver.findElement(By.id("uniform-id_gender2")).click();
+		
+driver.findElement(By.xpath("//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/form[1]/div[1]/div[2]")).sendKeys("A");
+		//LastName.click();
+		/*System.out.println(LastName.isEnabled());"//input[@id='uniform-id_gender2']"));
+		/*RadioBtn.click();
+		System.out.println(RadioBtn.isSelected());
+		
+		WebElement RadioBtn=driver.findElement(By.xpath*/
+	
+		
+		driver.close();
+		
+	}
+
+}
