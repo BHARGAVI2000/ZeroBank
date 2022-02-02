@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5030" started-at="2022-01-31T02:01:16Z" finished-at="2022-01-31T02:01:21Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="5030" started-at="2022-01-31T02:01:16Z" finished-at="2022-01-31T02:01:21Z">
+      <class name="BankingTestCases.AddPayee2">
+        <test-method status="PASS" signature="init()[pri:0, instance:BankingTestCases.AddPayee2@51565ec2]" name="init" is-config="true" duration-ms="5709" started-at="2022-01-30T21:01:10Z" finished-at="2022-01-30T21:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login()[pri:1, instance:BankingTestCases.AddPayee2@51565ec2]" name="login" duration-ms="2711" started-at="2022-01-30T21:01:16Z" finished-at="2022-01-30T21:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addPayee()[pri:2, instance:BankingTestCases.AddPayee2@51565ec2]" name="addPayee" duration-ms="1736" started-at="2022-01-30T21:01:19Z" finished-at="2022-01-30T21:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPayee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BankingTestCases.AddPayee2@51565ec2]" name="tearDown" is-config="true" duration-ms="4318" started-at="2022-01-30T21:01:21Z" finished-at="2022-01-30T21:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankingTestCases.AddPayee2 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite -->
+</testng-results>
