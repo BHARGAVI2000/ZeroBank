@@ -58,6 +58,6 @@
 <fullyQualifiedTypeName name="Utility.XTentReport"/>
 <fullyQualifiedTypeName name="TestCases.base"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="BankingBase.BaseClass"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>
