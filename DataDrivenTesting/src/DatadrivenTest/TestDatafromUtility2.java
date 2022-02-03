@@ -35,7 +35,6 @@ public class TestDatafromUtility2 {
 		String ActualTitle=driver.getTitle();
 		String expectedTitle="Welcome: Mercury Tours";
 		Assert.assertEquals(ActualTitle, expectedTitle);
-		System.out.println("Title is matched, url page is successful");
 
 
 		driver.findElement(By.name("userName")).sendKeys(uname);
@@ -43,8 +42,7 @@ public class TestDatafromUtility2 {
 		driver.findElement(By.name("submit")).click();
 		String actualText=  driver.findElement(By.xpath("//h3[contains(text(),'Login Successfully')]")).getText();
 		String expectedText= "Login Successfully";
-		Assert.assertEquals(actualText, expectedText, "login not successful");
-		System.out.println("Text is matched, login is successful ");
+		Assert.assertEquals(actualText, expectedText);
 		driver.findElement(By.linkText("SIGN-OFF")).click();
 		System.out.println("logged out successfully");
 

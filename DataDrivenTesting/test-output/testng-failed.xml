@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DatadrivenTest.TestDatafromUtility">
+      <class name="DatadrivenTest.TestDatafromUtility2">
         <methods>
-          <include name="loginTest" invocation-numbers="1 2 3"/>
           <include name="launchBrowser"/>
+          <include name="loginTest" invocation-numbers="1 2 3"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- DatadrivenTest.TestDatafromUtility -->
+      </class> <!-- DatadrivenTest.TestDatafromUtility2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
