@@ -3270,3 +3270,9 @@ java -ea -javaagent:C:\Users\Aila\eclipse\java-photon2\eclipse\configuration\org
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-07 13:59:50.963
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-07 17:29:47.871
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-07 17:29:47.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

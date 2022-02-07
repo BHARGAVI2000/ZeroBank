@@ -21,11 +21,14 @@ public class TakeScreenShot {
 		String dateName= new SimpleDateFormat("yyyyMMddmmss").format(new Date());
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		String destination=System.getProperty("user.dir")+"/Screenshots/"+screenshotName+dateName+".png";
+		//String destination=System.getProperty("user.dir")+"/Screenshots/"+screenshotName+dateName+".png";
+		String destination=System.getProperty("https://github.com/BHARGAVI2000/HybridFramework/tree/master/Screenshots")+screenshotName+dateName+".png";
+		
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(src, finalDestination);
 		
 		return destination;
+		
 		
 	}
 
