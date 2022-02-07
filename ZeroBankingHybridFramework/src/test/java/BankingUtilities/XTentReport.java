@@ -7,8 +7,8 @@ public class XTentReport {
 	public static ExtentReports report;
 	public static ExtentReports  getReport() {
 		
-		//report = new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\old\\myReport18.html",false,DisplayOrder.NEWEST_FIRST);
-		report = new ExtentReports(System.getProperty("user.dir")+"\\test-output\\myReport18.html",false,DisplayOrder.NEWEST_FIRST);
+		report = new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\old\\myReport18.html",false,DisplayOrder.NEWEST_FIRST);
+		//report = new ExtentReports(System.getProperty("user.dir")+"\\test-output\\myReport18.html",false,DisplayOrder.NEWEST_FIRST);
 		report.addSystemInfo("QA", "Saritha");
 		
 		report.addSystemInfo("QA", "Saritha");
