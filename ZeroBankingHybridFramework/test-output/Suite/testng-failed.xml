@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="BankingUtilities.TestNGListener"/>
   </listeners>
-  <test name="AddPayeeValidTest(failed)">
+  <test name="Test3(failed)">
     <classes>
-      <class name="BankingTestCases1.AddPayeeDatadriven">
+      <class name="YourStoreTestCases.RegisterTestCase">
         <methods>
           <include name="tearDown"/>
-          <include name="addPayee" invocation-numbers="1 2 3"/>
+          <include name="Register"/>
           <include name="init"/>
         </methods>
-      </class> <!-- BankingTestCases1.AddPayeeDatadriven -->
+      </class> <!-- YourStoreTestCases.RegisterTestCase -->
     </classes>
-  </test> <!-- AddPayeeValidTest(failed) -->
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,16 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 17.935 s <<< FAILURE! - in TestSuite
-BankingTestCases1.AddPayeeDatadriven.addPayee  Time elapsed: 1 s  <<< FAILURE!
-java.lang.AssertionError: expected [The new payee Payee1 was successfully created.] but found [The new payee Payee2 was successfully created.]
-	at BankingTestCases1.AddPayeeDatadriven.addPayee(AddPayeeDatadriven.java:83)
-
-BankingTestCases1.AddPayeeDatadriven.addPayee  Time elapsed: 1.041 s  <<< FAILURE!
-java.lang.AssertionError: expected [The new payee Payee1 was successfully created.] but found [The new payee Payee3 was successfully created.]
-	at BankingTestCases1.AddPayeeDatadriven.addPayee(AddPayeeDatadriven.java:83)
-
-BankingTestCases1.AddPayeeDatadriven.addPayee  Time elapsed: 0.961 s  <<< FAILURE!
-java.lang.AssertionError: expected [The new payee Payee1 was successfully created.] but found [The new payee Payee4 was successfully created.]
-	at BankingTestCases1.AddPayeeDatadriven.addPayee(AddPayeeDatadriven.java:83)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.09 s <<< FAILURE! - in TestSuite
+YourStoreTestCases.RegisterTestCase.Register  Time elapsed: 4.718 s  <<< FAILURE!
+java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
+	at YourStoreTestCases.RegisterTestCase.Register(RegisterTestCase.java:47)
 

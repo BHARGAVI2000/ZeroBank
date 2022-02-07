@@ -61,11 +61,13 @@ public class BaseClass {
 				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") +"\\src\\test\\resources\\executables\\geckodriver.exe");
 				driver = new FirefoxDriver();
 			} else if (config.getProperty("browser").equals("edge")) {
-				System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") +"\\src\\test\\resources\\executables\\MicrosoftWebDriver.exe");
+				System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\msedgedriver.exe");
+		//System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") +"\\src\\test\\resources\\executables\\MicrosoftWebDriver.exe");
 				driver = new EdgeDriver();
 			}
 			driver.manage().window().maximize();
-			driver.get(config.getProperty("testsiteURL"));
+			//driver.get(config.getProperty("testsiteURL"));
+			driver.get("https://demo.opencart.com");
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 

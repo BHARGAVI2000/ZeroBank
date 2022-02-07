@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22590" started-at="2022-02-03T06:15:33Z" finished-at="2022-02-03T06:15:55Z">
+  <suite name="Suite" duration-ms="20795" started-at="2022-02-04T04:35:38Z" finished-at="2022-02-04T04:35:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22590" started-at="2022-02-03T06:15:33Z" finished-at="2022-02-03T06:15:55Z">
+    <test name="Test" duration-ms="20795" started-at="2022-02-04T04:35:38Z" finished-at="2022-02-04T04:35:59Z">
       <class name="TestNG.TC_001">
-        <test-method status="PASS" signature="AddPayee()[pri:0, instance:TestNG.TC_001@5d3411d]" name="AddPayee" duration-ms="22550" started-at="2022-02-03T06:15:33Z" finished-at="2022-02-03T06:15:55Z">
+        <test-method status="PASS" signature="AddPayee()[pri:0, instance:TestNG.TC_001@22a71081]" name="AddPayee" duration-ms="20777" started-at="2022-02-04T04:35:38Z" finished-at="2022-02-04T04:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPayee -->

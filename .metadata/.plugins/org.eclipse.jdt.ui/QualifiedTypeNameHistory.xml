@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
-<fullyQualifiedTypeName name="org.testng.Assert"/>
-<fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
-<fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
@@ -40,7 +35,6 @@
 <fullyQualifiedTypeName name="BankingBase.TestNGListener"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Listeners"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="Utility.TakeScreenShot"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
@@ -55,9 +49,15 @@
 <fullyQualifiedTypeName name="pageObjects.SignInPage"/>
 <fullyQualifiedTypeName name="pageObjects.LoginPage"/>
 <fullyQualifiedTypeName name="pageObjects.AddPayeePage"/>
-<fullyQualifiedTypeName name="Utility.XTentReport"/>
-<fullyQualifiedTypeName name="TestCases.base"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="BankingBase.BaseClass"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="Utility.XTentReport"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="TestCases.base"/>
+<fullyQualifiedTypeName name="YourStorePageObject.RegisterPage"/>
+<fullyQualifiedTypeName name="YourStorePageObject.MyAccountPage"/>
 </qualifiedTypeNameHistroy>

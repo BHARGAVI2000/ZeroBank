@@ -15,5 +15,7 @@
 	<classpathentry kind="lib" path="C:/Jarfiles/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Jarfiles/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Jarfiles/selenium-java-3.141.59/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Jarfiles/jcommander-1.78/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="C:/Jarfiles/javax.mail-1.6.2/javax.mail-1.6.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="BankingUtilities.TestNGListener"/>
   </listeners>
-  <test name="AddPayeeValidTest(failed)">
+  <test name="Test3(failed)">
     <classes>
-      <class name="BankingTestCases1.AddPayeeDatadriven">
+      <class name="YourStoreTestCases.RegisterTestCase">
         <methods>
           <include name="tearDown"/>
-          <include name="addPayee" invocation-numbers="1 2 3"/>
+          <include name="Register"/>
           <include name="init"/>
         </methods>
-      </class> <!-- BankingTestCases1.AddPayeeDatadriven -->
+      </class> <!-- YourStoreTestCases.RegisterTestCase -->
     </classes>
-  </test> <!-- AddPayeeValidTest(failed) -->
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

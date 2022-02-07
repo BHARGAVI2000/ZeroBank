@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="BankingUtilities.TestNGListener" />
+	</listeners>
+
+  <test thread-count="5" name="Test1" enabled ="false">
+    <classes>
+      <class name="YourStoreTestCases.LoginTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2" enabled ="false">
+    <classes>
+      
+      <class name="YourStoreTestCases.MyAccountTestCase"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test3" enabled ="true">
+    <classes>
+      
+      <class name="YourStoreTestCases.RegisterTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
