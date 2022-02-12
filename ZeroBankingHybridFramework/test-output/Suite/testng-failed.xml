@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="BankingUtilities.TestNGListener"/>
   </listeners>
-  <test name="Test3(failed)">
+  <test name="MyAccount(failed)">
     <classes>
-      <class name="YourStoreTestCases.RegisterTestCase">
+      <class name="YourStoreTestCases.MyAccountTestCase">
         <methods>
           <include name="tearDown"/>
-          <include name="Register"/>
+          <include name="myAccount"/>
           <include name="init"/>
         </methods>
-      </class> <!-- YourStoreTestCases.RegisterTestCase -->
+      </class> <!-- YourStoreTestCases.MyAccountTestCase -->
     </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- MyAccount(failed) -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="YourStoreTestCases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- YourStoreTestCases.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

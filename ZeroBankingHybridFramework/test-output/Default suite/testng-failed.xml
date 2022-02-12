@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="YourStoreTestCases.LoginTest">
+      <class name="BankingTestCases1.AddPayeeWithListener">
         <methods>
           <include name="tearDown"/>
+          <include name="addPayee"/>
           <include name="login"/>
           <include name="init"/>
         </methods>
-      </class> <!-- YourStoreTestCases.LoginTest -->
+      </class> <!-- BankingTestCases1.AddPayeeWithListener -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

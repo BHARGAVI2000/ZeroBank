@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+	<listeners>
+		<listener class-name="yourStoreUtilities.TestNGListener" />
+	</listeners>
+	<test name="MyAccount">
+		<classes>
+			<class name="YourStoreTestCases.MyAccountTestCase" />
+		</classes>
+	</test>
+	<test name="Register">
+		<classes>
+			<class name="YourStoreTestCases.RegisterTestCase" />
+		</classes>
+	</test>
+	<test name="Login">
+		<classes>
+			<class name="YourStoreTestCases.LoginTest" />
+		</classes>
+	</test>
+</suite> 
