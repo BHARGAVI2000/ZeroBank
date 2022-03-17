@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="7134" started-at="2022-02-12T21:48:26Z" finished-at="2022-02-12T21:48:33Z">
+  <suite name="RegressionSuite" duration-ms="4926" started-at="2022-02-13T02:57:56Z" finished-at="2022-02-13T02:58:01Z">
     <groups>
     </groups>
-    <test name="MyAccount" duration-ms="1227" started-at="2022-02-12T21:48:26Z" finished-at="2022-02-12T21:48:27Z">
-      <class name="YourStoreTestCases.MyAccountTestCase">
-        <test-method status="PASS" signature="myAccount()[pri:0, instance:YourStoreTestCases.MyAccountTestCase@617faa95]" name="myAccount" duration-ms="816" started-at="2022-02-12T16:48:26Z" finished-at="2022-02-12T16:48:27Z">
+    <test name="MyAccount" duration-ms="951" started-at="2022-02-13T02:57:56Z" finished-at="2022-02-13T02:57:57Z">
+      <class name="yourStoreTestCases.MyAccountTestCase">
+        <test-method status="PASS" signature="myAccount()[pri:0, instance:yourStoreTestCases.MyAccountTestCase@10bdf5e5]" name="myAccount" duration-ms="618" started-at="2022-02-12T21:57:56Z" finished-at="2022-02-12T21:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myAccount -->
-      </class> <!-- YourStoreTestCases.MyAccountTestCase -->
+      </class> <!-- yourStoreTestCases.MyAccountTestCase -->
     </test> <!-- MyAccount -->
-    <test name="Register" duration-ms="4112" started-at="2022-02-12T21:48:27Z" finished-at="2022-02-12T21:48:31Z">
-      <class name="YourStoreTestCases.RegisterTestCase">
-        <test-method status="FAIL" signature="Register()[pri:0, instance:YourStoreTestCases.RegisterTestCase@6c3708b3]" name="Register" duration-ms="3892" started-at="2022-02-12T16:48:27Z" finished-at="2022-02-12T16:48:31Z">
+    <test name="Register" duration-ms="2274" started-at="2022-02-13T02:57:57Z" finished-at="2022-02-13T02:58:00Z">
+      <class name="yourStoreTestCases.RegisterTestCase">
+        <test-method status="FAIL" signature="Register()[pri:0, instance:yourStoreTestCases.RegisterTestCase@3108bc]" name="Register" duration-ms="2014" started-at="2022-02-12T21:57:57Z" finished-at="2022-02-12T21:57:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Your Account Has Been Created!] but found [Register Account]]]>
@@ -28,7 +28,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at YourStoreTestCases.RegisterTestCase.Register(RegisterTestCase.java:42)
+	at yourStoreTestCases.RegisterTestCase.Register(RegisterTestCase.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,23 +60,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-      </class> <!-- YourStoreTestCases.RegisterTestCase -->
+      </class> <!-- yourStoreTestCases.RegisterTestCase -->
     </test> <!-- Register -->
-    <test name="Login" duration-ms="1768" started-at="2022-02-12T21:48:31Z" finished-at="2022-02-12T21:48:33Z">
-      <class name="YourStoreTestCases.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:YourStoreTestCases.LoginTest@6ddf90b0]" name="init" is-config="true" duration-ms="6165" started-at="2022-02-12T16:48:20Z" finished-at="2022-02-12T16:48:26Z">
+    <test name="Login" duration-ms="1677" started-at="2022-02-13T02:58:00Z" finished-at="2022-02-13T02:58:01Z">
+      <class name="yourStoreTestCases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:yourStoreTestCases.LoginTest@3e9b1010]" name="init" is-config="true" duration-ms="6126" started-at="2022-02-12T21:57:50Z" finished-at="2022-02-12T21:57:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="login()[pri:0, instance:YourStoreTestCases.LoginTest@6ddf90b0]" name="login" duration-ms="1718" started-at="2022-02-12T16:48:31Z" finished-at="2022-02-12T16:48:33Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:yourStoreTestCases.LoginTest@3e9b1010]" name="login" duration-ms="1641" started-at="2022-02-12T21:58:00Z" finished-at="2022-02-12T21:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:YourStoreTestCases.LoginTest@6ddf90b0]" name="tearDown" is-config="true" duration-ms="99" started-at="2022-02-12T16:48:33Z" finished-at="2022-02-12T16:48:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:yourStoreTestCases.LoginTest@3e9b1010]" name="tearDown" is-config="true" duration-ms="102" started-at="2022-02-12T21:58:01Z" finished-at="2022-02-12T21:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- YourStoreTestCases.LoginTest -->
+      </class> <!-- yourStoreTestCases.LoginTest -->
     </test> <!-- Login -->
   </suite> <!-- RegressionSuite -->
 </testng-results>

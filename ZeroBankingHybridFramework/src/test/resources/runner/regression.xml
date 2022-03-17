@@ -6,12 +6,12 @@
 	</listeners>
 	<test thread-count="5" name="MyAccount">
 		<classes>
-			<class name="YourStoreTestCases.MyAccountTestCase" />
+			<class name="yourStoreTestCases.MyAccountTestCase" />
 		</classes>
 	</test>
 	<test name="Login">
 		<classes>
-			<class name="YourStoreTestCases.LoginTest" />
+			<class name="yourStoreTestCases.LoginTest" />
 		</classes>
 	</test>
 </suite> 

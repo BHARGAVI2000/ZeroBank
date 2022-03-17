@@ -1,4 +1,4 @@
-package YourStoreTestCases;
+package yourStoreTestCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -10,7 +10,7 @@ import yourStoreBase.BaseClass;
 import yourStorePages.MyAccountPage;
 import yourStoreUtilities.XTentReport;
 
-@Listeners(yourStoreUtilities.TestNGListener.class)
+//@Listeners(yourStoreUtilities.TestNGListener.class)
 
 public class MyAccountTestCase extends BaseClass{
  

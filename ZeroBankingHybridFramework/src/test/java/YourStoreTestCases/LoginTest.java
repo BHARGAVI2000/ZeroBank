@@ -1,4 +1,4 @@
-package YourStoreTestCases;
+package yourStoreTestCases;
 
 import static org.testng.Assert.assertEquals;
 

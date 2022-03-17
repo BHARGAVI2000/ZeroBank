@@ -6,17 +6,17 @@
 	</listeners>
 	<test name="MyAccount">
 		<classes>
-			<class name="YourStoreTestCases.MyAccountTestCase" />
+			<class name="yourStoreTestCases.MyAccountTestCase" />
 		</classes>
 	</test>
 	<test name="Register">
 		<classes>
-			<class name="YourStoreTestCases.RegisterTestCase" />
+			<class name="yourStoreTestCases.RegisterTestCase" />
 		</classes>
 	</test>
 	<test name="Login">
 		<classes>
-			<class name="YourStoreTestCases.LoginTest" />
+			<class name="yourStoreTestCases.LoginTest" />
 		</classes>
 	</test>
 </suite> 

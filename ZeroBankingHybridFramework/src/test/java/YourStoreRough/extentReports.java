@@ -1,4 +1,4 @@
-package YourStoreRough;
+package yourStoreRough;
 
 import java.io.File;
 import java.io.IOException;

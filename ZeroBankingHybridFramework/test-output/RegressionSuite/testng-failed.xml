@@ -6,13 +6,13 @@
   </listeners>
   <test name="Register(failed)">
     <classes>
-      <class name="YourStoreTestCases.RegisterTestCase">
+      <class name="yourStoreTestCases.RegisterTestCase">
         <methods>
           <include name="init"/>
           <include name="Register"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- YourStoreTestCases.RegisterTestCase -->
+      </class> <!-- yourStoreTestCases.RegisterTestCase -->
     </classes>
   </test> <!-- Register(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->

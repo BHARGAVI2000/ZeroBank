@@ -26,7 +26,7 @@ public class addNewPayee {
 
 	@BeforeTest
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();    
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);}
